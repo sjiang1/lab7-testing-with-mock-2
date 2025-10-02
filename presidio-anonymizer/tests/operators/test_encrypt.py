@@ -54,3 +54,16 @@ def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_encryp
         match="Invalid input, key must be of length 128, 192 or 256 bits",
     ):
         Encrypt().validate(params={"key": b'1111111111111111'})
+
+# Grading Task 2
+# 2.1 have the method `test_operator_name`
+   # 2.1.1 correctly cover the line in operator_name method
+# 2.2 have the method `test_operator_type`
+   # 2.2.1 correctly cover the line in operator_type method
+
+def test_operator_name():
+    assert Encrypt().operator_name() == "encrypt"
+
+from presidio_anonymizer.operators import OperatorType
+def test_operator_type():
+    assert Encrypt().operator_type() == OperatorType.Anonymize
