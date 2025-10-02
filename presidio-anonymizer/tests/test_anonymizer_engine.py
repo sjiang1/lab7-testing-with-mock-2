@@ -274,12 +274,26 @@ def test_given_unsorted_input_then_merged_correctly():
     )
     assert anonymizer_result.text == "<PERSON> is a person"
 
+
+# Grading Task 5
+# 5.1 they should have the method `test_given_conflict_input_then_merged_correctly`
+# 5.2 they should have the line `assert mock_logger.debug.called` or mock_logger.debug.assert_called_once()
+# 5.3 tests/test_anonymizer_engine.py::test_given_conflict_input_then_merged_correctly and the test should pass
 from unittest import mock
 @mock.patch("presidio_anonymizer.anonymizer_engine.logger")
 def test_given_conflict_input_then_merged_correctly(mock_logger):
-    # replace the following `pass` line with your test implementation
-    pass
-
+    engine = AnonymizerEngine()
+    text = "I'm George Washington Square Park."
+    original_analyzer_results = [
+        RecognizerResult(start=4, end=21, entity_type="PERSON", score=1.0),
+        RecognizerResult(start=4, end=33, entity_type="LOCATION", score=1.0),
+    ]
+    anonymizer_result = engine.anonymize(
+        text,
+        original_analyzer_results
+    )
+    assert anonymizer_result.text == "I'm <LOCATION>."
+    assert mock_logger.debug.called
 
 def _operate(
     text: str,
