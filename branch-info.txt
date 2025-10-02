@@ -8,20 +8,20 @@ Branches in this repo (with details):
     64ba578 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:43:29Z | Auto-update branch-info.txt
     0e969f4 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T11:43:19-04:00 | Initial commit
 - lab7
-  SHA: 61364a50f5187ceeffb8f0434eea444fbd04713b
-  Commits: 6
+  SHA: 153a99a63343c2c826265caec40e5da19d7c0a77
+  Commits: 7
   Recent commits:
+    153a99a | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:56:34Z | task 5 solution + grading
     61364a5 | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:47:51Z | task 4 solution + grading
     46eff16 | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:33:19Z | task 3 solution + grading
     37c0b8b | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:27:52Z | task 2 solution + grading
     fc118b7 | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:11:00Z | task 1 solution + grading
-    64ba578 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:43:29Z | Auto-update branch-info.txt
 - main
-  SHA: 34679c11afa1e59a6a1e3bd135804e5c96559f21
-  Commits: 6
+  SHA: 3b99d738bb1ce7d38ac658fee36952fcc4c77e6e
+  Commits: 7
   Recent commits:
+    3b99d73 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:48:03Z | Auto-update branch-info.txt
     34679c1 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:33:30Z | Auto-update branch-info.txt
     544f875 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:28:03Z | Auto-update branch-info.txt
     ba9399f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:12:41Z | Auto-update branch-info.txt
     83b411b | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:44:06Z | Auto-update branch-info.txt
-    64ba578 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:43:29Z | Auto-update branch-info.txt
