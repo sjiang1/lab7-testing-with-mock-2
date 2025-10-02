@@ -288,7 +288,20 @@ from unittest import mock
 @mock.patch.object(RecognizerResult, "logger")
 def test_logger(mock_logger):
     # replace the following line of `pass` with your test implementation
-    pass
+    create_recognizer_result("entity", 0.8, 1, 5)
+    assert mock_logger.info.called
+    message = mock_logger.info.call_args.args[0]
+    for keyword in ['entity', '0.8', '1', '5']:
+        assert keyword in message
+
+    # Grading Task 1
+    # 1.1 in this test, they should remove `pass`
+    # 1.2 they should call create_recognizer_result to create an object for testing
+       # 1.2.1 they can choose any valid inputs for this call
+    # 1.3 they can either use `asser mock_logger.info.called` or `mock_logger.info.assert_called_once()`
+    # 1.4 they should get the message in the call of logger.info
+    # 1.5 they should check if the input values occurs in the log message
+    # note: they can choose the variable names
 
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
