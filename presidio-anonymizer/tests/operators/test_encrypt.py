@@ -76,3 +76,32 @@ def test_operator_name():
 from presidio_anonymizer.operators import OperatorType
 def test_operator_type():
     assert Encrypt().operator_type() == OperatorType.Anonymize
+
+
+# Grading Task 4
+# 4.1 have the test method `test_valid_keys`
+# 4.2 should have parametrize right before the method signature
+# 4.3 have six input cases for the parametrize
+# 4.4 the six input cases should satisfy (may be out of order):
+#-	A string key with 128 bits
+#-	A string key with 192 bits
+#-	A string key with 256 bits
+#-	A bytes key with 128 bits
+#-	A bytes key with 192 bits
+#-	A bytes key with 256 bits
+# 4.5 in the test body, call the validate method with the input
+@pytest.mark.parametrize(
+    # fmt: off
+    "key",
+    [
+        "128bitslengthkey",
+        "192bitslengthkey12345678",
+        "256bitslengthkey256bitslengthkey",
+        b'1111111111111111',
+        b'111111111111111112345678',
+        b'11111111111111111111111111111111'
+    ],
+    # fmt: on
+)
+def test_valid_keys(key):
+    Encrypt().validate(params={"key": key})
