@@ -7,9 +7,17 @@ Branches in this repo (with details):
     204c361 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T15:43:57Z | Bump actions/checkout from 3 to 5
     64ba578 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:43:29Z | Auto-update branch-info.txt
     0e969f4 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T11:43:19-04:00 | Initial commit
-- main
-  SHA: 64ba578a82458ffc18253d9b02119a13f20a516a
-  Commits: 2
+- lab7
+  SHA: fc118b7484a8d94ea1d615895a1c2d5c16b9d366
+  Commits: 3
   Recent commits:
+    fc118b7 | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:11:00Z | task 1 solution + grading
+    64ba578 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:43:29Z | Auto-update branch-info.txt
+    0e969f4 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T11:43:19-04:00 | Initial commit
+- main
+  SHA: 83b411b939ad9a91283ae0b01397b20338ddc368
+  Commits: 3
+  Recent commits:
+    83b411b | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:44:06Z | Auto-update branch-info.txt
     64ba578 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:43:29Z | Auto-update branch-info.txt
     0e969f4 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T11:43:19-04:00 | Initial commit
