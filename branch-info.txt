@@ -17,11 +17,11 @@ Branches in this repo (with details):
     37c0b8b | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:27:52Z | task 2 solution + grading
     fc118b7 | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:11:00Z | task 1 solution + grading
 - main
-  SHA: 3b99d738bb1ce7d38ac658fee36952fcc4c77e6e
-  Commits: 7
+  SHA: d39a33c22edf09efe009cc1f25dacf05a618485b
+  Commits: 14
   Recent commits:
+    d39a33c | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T15:10:14-04:00 | Merge pull request #2 from sjiang1/lab7
+    7fc7c78 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:56:48Z | Auto-update branch-info.txt
+    153a99a | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:56:34Z | task 5 solution + grading
     3b99d73 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:48:03Z | Auto-update branch-info.txt
-    34679c1 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:33:30Z | Auto-update branch-info.txt
-    544f875 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:28:03Z | Auto-update branch-info.txt
-    ba9399f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:12:41Z | Auto-update branch-info.txt
-    83b411b | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:44:06Z | Auto-update branch-info.txt
+    61364a5 | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:47:51Z | task 4 solution + grading
