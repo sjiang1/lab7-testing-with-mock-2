@@ -46,9 +46,17 @@ def test_given_verifying_an_invalid_length_key_then_ipe_raised():
     ):
         Encrypt().validate(params={"key": "key"})
 
-@mock.patch.object(AESCipher, "encrypt") # hint: replace encrypt with the method that you want to mock
-def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_encrypt): # hint: replace mock_encrypt with a proper name for your mocker
+# Grading Task 3
+# 3.1 have the method `test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised`
+# 3.2 changed the patch object in line 53 to `is_valid_key_size`
+# 3.3 changed the mock_encrypt at line 55 to something appropriate (e.g. mock_is_valid_key_size)
+# 3.4 add the return value to the mocked method (e.g. line 58)
+# 3.5 the coverage report for encrypt.py should be 100%
+
+@mock.patch.object(AESCipher, "is_valid_key_size") # hint: replace encrypt with the method that you want to mock
+def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_is_valid_key_size): # hint: replace mock_encrypt with a proper name for your mocker
     # Here: add setup for mocking
+    mock_is_valid_key_size.return_value = False
     with pytest.raises(
         InvalidParamError,
         match="Invalid input, key must be of length 128, 192 or 256 bits",
@@ -60,6 +68,7 @@ def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_encryp
    # 2.1.1 correctly cover the line in operator_name method
 # 2.2 have the method `test_operator_type`
    # 2.2.1 correctly cover the line in operator_type method
+# 2.3 the coverage report for encrypt.py should be 94%
 
 def test_operator_name():
     assert Encrypt().operator_name() == "encrypt"
