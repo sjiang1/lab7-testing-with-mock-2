@@ -9,13 +9,15 @@ Branches in this repo (with details):
     d39a33c | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T15:10:14-04:00 | Merge pull request #2 from sjiang1/lab7
     7fc7c78 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:56:48Z | Auto-update branch-info.txt
     153a99a | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:56:34Z | task 5 solution + grading
-- dependabot/github_actions/actions/checkout-5
-  SHA: 204c361105959454b0d8e72f8ab9c4cabc327849
-  Commits: 3
+- dependabot/github_actions/actions/checkout-6
+  SHA: a93a1e0080f9cc71e05882771f7059c43f4f6599
+  Commits: 17
   Recent commits:
-    204c361 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T15:43:57Z | Bump actions/checkout from 3 to 5
-    64ba578 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T15:43:29Z | Auto-update branch-info.txt
-    0e969f4 | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T11:43:19-04:00 | Initial commit
+    a93a1e0 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-24T13:57:59Z | Bump actions/checkout from 3 to 6
+    a4cbd7d | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T12:18:28Z | Auto-update branch-info.txt
+    143c68d | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T19:10:24Z | Auto-update branch-info.txt
+    d39a33c | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T15:10:14-04:00 | Merge pull request #2 from sjiang1/lab7
+    7fc7c78 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:56:48Z | Auto-update branch-info.txt
 - lab7
   SHA: 153a99a63343c2c826265caec40e5da19d7c0a77
   Commits: 7
@@ -26,11 +28,11 @@ Branches in this repo (with details):
     37c0b8b | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:27:52Z | task 2 solution + grading
     fc118b7 | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:11:00Z | task 1 solution + grading
 - main
-  SHA: 143c68da87f2366b012a97a8e9218f5bb13ba8fa
-  Commits: 15
+  SHA: a4cbd7d313169599cdd0957a5fee4e1f4b4c9847
+  Commits: 16
   Recent commits:
+    a4cbd7d | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-01T12:18:28Z | Auto-update branch-info.txt
     143c68d | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T19:10:24Z | Auto-update branch-info.txt
     d39a33c | Author: Siyuan Jiang <2203934+sjiang1@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-02T15:10:14-04:00 | Merge pull request #2 from sjiang1/lab7
     7fc7c78 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:56:48Z | Auto-update branch-info.txt
     153a99a | Author: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Committer: teststudentcosc381 <144061513+teststudentcosc381@users.noreply.github.com> | Date: 2025-10-02T16:56:34Z | task 5 solution + grading
-    3b99d73 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-02T16:48:03Z | Auto-update branch-info.txt
